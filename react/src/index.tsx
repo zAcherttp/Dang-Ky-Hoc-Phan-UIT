@@ -27,13 +27,15 @@ declare module '@mui/styles/defaultTheme' {
 export const isProd = process.env.NODE_ENV === 'production';
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY || 'unspecified',
-  authDomain: 'tool-dkhp-uit.firebaseapp.com',
-  projectId: 'tool-dkhp-uit',
-  storageBucket: 'tool-dkhp-uit.appspot.com',
-  messagingSenderId: '473962295838',
-  appId: '1:473962295838:web:24fcf634d9eee42d2db40f',
+  apiKey: "AIzaSyA_pP9_AnMEYHC01SlL_JU7AYHQJwlrVt0",
+  authDomain: "tool-dkhp-uit-fork-for-ptit.firebaseapp.com",
+  projectId: "tool-dkhp-uit-fork-for-ptit",
+  storageBucket: "tool-dkhp-uit-fork-for-ptit.appspot.com",
+  messagingSenderId: "1082883525247",
+  appId: "1:1082883525247:web:765faef75e088d4e590d4a",
+  measurementId: "G-5RG5GGE204"
 };
+
 const app = initializeApp(firebaseConfig, { automaticDataCollectionEnabled: true });
 export const analytics = getAnalytics(app);
 export const db = getFirestore(app);

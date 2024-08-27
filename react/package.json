@@ -19,6 +19,7 @@
     "ag-grid-community": "^30.2.1",
     "ag-grid-enterprise": "^30.2.1",
     "ag-grid-react": "^30.2.1",
+    "caniuse-lite": "^1.0.30001653",
     "clsx": "^2.0.0",
     "constate": "^3.3.2",
     "eslint": "^8.55.0",
@@ -64,6 +65,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.0",
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.10",
     "@types/react-dom": "^17.0.9",
