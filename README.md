@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://uit.edu.vn/" target="_blank"><img src="./react/public/favicon.ico"></a>
+  <a href="https://uit.edu.vn/" target="_blank"><img src="./react/public/android-chrome-192x192.png"></a>
   <h1>Tool Đăng Ký Học Phần UIT</h1>
 </div>
 
